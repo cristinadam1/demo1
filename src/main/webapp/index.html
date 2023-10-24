@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phone code to word</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script language="JavaScript" src="myAJAXlib.js"></script>
+    <script language="JavaScript" src="myJS.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Phone code to word</h1>
+
+        <div class="section">
+            <input type="button" id="b1" value="Convert" onclick="convertNumber()">
+            <input type="text" id="t1" value="" placeholder="Enter a number">
+            <span> the number is</span>
+            <input type="text" id="t2" value="" disabled>
+        </div>
+
+ 
+        <div class="section">
+            <input type="button" id="b2" value="Convert" onclick="getPhoneCode()">
+            <input type="text" id="t3" value="" placeholder="Enter a code">
+            <span> the phone code is</span>
+            <input type="text" id="t4" value="" disabled>
+        </div>
+        
+        <!-- <div class="section">
+            <input type="button" id="b3" value="Convert" onclick="countryWord()">
+            <input type="text" id="t5" value="" placeholder="Enter a code">
+            <span>the phone code is </span>
+            <input type="text" id="t6" value="" disabled>
+        </div> -->
+        
+
+        <div id="div3">
+        </div>
+    </div>
+</body>
+</html>
